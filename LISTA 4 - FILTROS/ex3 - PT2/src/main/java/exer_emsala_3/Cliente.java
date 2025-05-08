@@ -21,6 +21,5 @@ public class Cliente extends Pessoa {
         LocalDate hoje = LocalDate.now();
         Period periodo = Period.between(dataCadastro, hoje);
         return periodo.getYears(); 
-        
     }
 }
