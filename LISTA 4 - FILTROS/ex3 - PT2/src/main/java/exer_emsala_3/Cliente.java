@@ -11,6 +11,8 @@ public class Cliente extends Pessoa {
     public Cliente(String nome, int idade, LocalDate dataCadastro) {
         super(nome, idade);
         this.dataCadastro = dataCadastro;
+
+        
     }
 
     public LocalDate getDataCadastro() {
