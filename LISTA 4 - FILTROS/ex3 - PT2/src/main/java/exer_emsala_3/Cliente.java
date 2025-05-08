@@ -12,7 +12,6 @@ public class Cliente extends Pessoa {
         super(nome, idade);
         this.dataCadastro = dataCadastro;
 
-        
     }
 
     public LocalDate getDataCadastro() {
